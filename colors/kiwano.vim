@@ -37,31 +37,31 @@ hi PMenuThumb     guifg=NONE     guibg=#a4a6a8  guisp=#a4a6a8   ctermfg=NONE  ct
 endif
 
 " Diff highligthing
-hi DiffAdd        guifg=NONE     guibg=#193224  guisp=#193224   ctermfg=NONE  ctermbg=236 cterm=NONE
+hi DiffAdd        guifg=NONE     guibg=#193224  guisp=#193224   ctermfg=NONE  ctermbg=236
 hi DiffText       guifg=NONE     guibg=#492224  guisp=#492224   ctermfg=NONE  ctermbg=52 
 hi DiffDelete     guifg=NONE     guibg=#192224  guisp=#192224   ctermfg=NONE  ctermbg=235 
 hi DiffChange     guifg=NONE     guibg=#492224  guisp=#492224   ctermfg=NONE  ctermbg=52 
 
 " Syntax highlighting
-hi Keyword        guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166    ctermbg=NONE
+hi Keyword        guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE
 hi Statement      guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE
 hi Constant       guifg=#a6abad  guibg=NONE     guisp=NONE      ctermfg=109   ctermbg=NONE 
 hi Number         guifg=#000087  guibg=NONE     guisp=NONE      ctermfg=28    ctermbg=NONE
 hi PreProc        guifg=#630863  guibg=NONE     guisp=NONE      ctermfg=53    ctermbg=NONE 
 hi Function       guifg=#41557d  guibg=NONE     guisp=NONE      ctermfg=18    ctermbg=NONE 
-hi Identifier     guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=25   ctermbg=NONE
+hi Identifier     guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=25    ctermbg=NONE
 hi Type           guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=67    ctermbg=NONE 
 hi Special        guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE 
 hi String         guifg=#18661e  guibg=NONE     guisp=NONE      ctermfg=28    ctermbg=NONE
 hi Comment        guifg=#616f73  guibg=NONE     guisp=NONE      ctermfg=245   ctermbg=NONE 
 hi Include        guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=28    ctermbg=NONE
 hi SpecialComment guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=245   ctermbg=NONE 
-hi Structure      guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=166    ctermbg=NONE cterm=None
-hi Macro          guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE cterm=NONE
-hi ColorColumn    guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=160   ctermbg=229 cterm=NONE
+hi Structure      guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE
+hi Macro          guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE
+hi ColorColumn    guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=160   ctermbg=229
 hi SignColumn     guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=235   ctermbg=231
-hi Error          guifg=#a6abad  guibg=#912C00  guisp=#912C00   ctermfg=255  ctermbg=203
-hi Todo           guifg=#aeaeb3  guibg=#BD9800  guisp=#BD9800   ctermfg=232  ctermbg=227
+hi Error          guifg=#a6abad  guibg=#912C00  guisp=#912C00   ctermfg=255   ctermbg=203
+hi Todo           guifg=#aeaeb3  guibg=#BD9800  guisp=#BD9800   ctermfg=232   ctermbg=227
 
 "hi IncSearch      guifg=#1b2427  guibg=#BD9800  guisp=#BD9800   ctermfg=235   ctermbg=1 
 "hi WildMenu       guifg=NONE     guibg=#A1A6A8  guisp=#A1A6A8   ctermfg=NONE  ctermbg=248
@@ -92,9 +92,7 @@ hi Todo           guifg=#aeaeb3  guibg=#BD9800  guisp=#BD9800   ctermfg=232  cte
 "hi Tag            guifg=#b38f00  guibg=NONE     guisp=NONE      ctermfg=136   ctermbg=NONE
 "hi Repeat         guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE
 "hi SpellBad       guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235 
-"hi Directory      guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=246   ctermbg=NONE cterm=bold
-"hi Underlined     guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235 cterm=underline
-"hi TabLine        guifg=#1b2427  guibg=#5E6C70  guisp=#5E6C70   ctermfg=235   ctermbg=66 cterm=bold
-"hi cursorim       guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=235   ctermbg=60 cterm=NONE
-
-
+"hi Directory      guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=246   ctermbg=NONE
+"hi Underlined     guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235
+"hi TabLine        guifg=#1b2427  guibg=#5E6C70  guisp=#5E6C70   ctermfg=235   ctermbg=66
+"hi cursorim       guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=235   ctermbg=60
