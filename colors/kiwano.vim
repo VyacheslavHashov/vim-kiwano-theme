@@ -8,7 +8,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "lazy"
+let g:colors_name = "kiwano"
 
 " General 
 hi Normal         guifg=#1a1a1a  guibg=#ffffff  guisp=#ffffff   ctermfg=234   ctermbg=white 
@@ -54,16 +54,17 @@ hi Type           guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=67    ct
 hi Special        guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE 
 hi String         guifg=#18661e  guibg=NONE     guisp=NONE      ctermfg=28    ctermbg=NONE
 hi Comment        guifg=#616f73  guibg=NONE     guisp=NONE      ctermfg=245   ctermbg=NONE 
-hi Todo           guifg=#aeaeb3  guibg=#BD9800  guisp=#BD9800   ctermfg=249   ctermbg=1
 hi Include        guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=28    ctermbg=NONE
 hi SpecialComment guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=245   ctermbg=NONE 
 hi Structure      guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=166    ctermbg=NONE cterm=None
 hi Macro          guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE cterm=NONE
 hi ColorColumn    guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=160   ctermbg=229 cterm=NONE
+hi SignColumn     guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=235   ctermbg=231
+hi Error          guifg=#a6abad  guibg=#912C00  guisp=#912C00   ctermfg=255  ctermbg=203
+hi Todo           guifg=#aeaeb3  guibg=#BD9800  guisp=#BD9800   ctermfg=232  ctermbg=227
 
 "hi IncSearch      guifg=#1b2427  guibg=#BD9800  guisp=#BD9800   ctermfg=235   ctermbg=1 
 "hi WildMenu       guifg=NONE     guibg=#A1A6A8  guisp=#A1A6A8   ctermfg=NONE  ctermbg=248
-"hi SignColumn     guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=235   ctermbg=231
 "hi Typedef        guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=18    ctermbg=NONE
 "hi PreCondit      guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE 
 "hi TabLineSel     guifg=#1b2427  guibg=#BD9800  guisp=#BD9800   ctermfg=235   ctermbg=1 
@@ -88,10 +89,9 @@ hi ColorColumn    guifg=#1b2427  guibg=#536991  guisp=#536991   ctermfg=160   ct
 "hi SpellCap       guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235 
 "hi Exception      guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE 
 "hi SpellLocal     guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235
-"hi Error          guifg=#a6abad  guibg=#912C00  guisp=#912C00   ctermfg=109   ctermbg=88
 "hi Tag            guifg=#b38f00  guibg=NONE     guisp=NONE      ctermfg=136   ctermbg=NONE
 "hi Repeat         guifg=#b36200  guibg=NONE     guisp=NONE      ctermfg=166   ctermbg=NONE
-"hi SpellBad       guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235 cterm=underline
+"hi SpellBad       guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235 
 "hi Directory      guifg=#556a95  guibg=NONE     guisp=NONE      ctermfg=246   ctermbg=NONE cterm=bold
 "hi Underlined     guifg=#aeaeb3  guibg=#192224  guisp=#192224   ctermfg=249   ctermbg=235 cterm=underline
 "hi TabLine        guifg=#1b2427  guibg=#5E6C70  guisp=#5E6C70   ctermfg=235   ctermbg=66 cterm=bold
